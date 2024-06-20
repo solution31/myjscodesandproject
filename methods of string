@@ -1,0 +1,25 @@
+let str="Mansi Joshi";
+let newStr=str.toLocaleUpperCase();
+console.log(str);
+ Mansi Joshi
+console.log(newStr);
+ MANSI JOSHI
+undefined
+//lowercase
+let newStr= str.toLocaleLowerCase();
+console.log(newStr);
+ mansi joshi
+//trim
+let newStr= str.trim()
+console.log(newStr);
+ Mansi Joshi
+let newStr= str.slice(2,7);
+console.log(newStr);
+ nsi J
+let str2= "Is a good girl";
+let newStr=str.concat(str2);
+console.log(newStr);
+ Mansi JoshiIs a good girl
+let newStr= str.replace("Mansi","Iccha");
+console.log(newStr);
+ Iccha Joshi
