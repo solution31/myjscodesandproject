@@ -1,0 +1,28 @@
+let marks=[97,90,83,76,62,35];
+undefined
+let topper=marks.filter((val)=>{
+    return val>90;
+});
+undefined
+console.log(topper);
+VM4904:1 [97]
+undefined
+let n=prompt("Enter a number");
+undefined
+let arr=[];
+undefined
+for(let i=1;i<=n;i++){
+    arr[i-1]=i;
+}
+7
+console.log(arr);
+VM5223:1 (7) [1, 2, 3, 4, 5, 6, 7]
+undefined
+//factorial
+undefined
+let fact= arr.reduce((res,curr)=>{
+    return res*curr;
+});
+undefined
+console.log(fact);
+VM5568:1 5040
