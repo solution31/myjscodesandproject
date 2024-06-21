@@ -1,0 +1,11 @@
+let prices = [250, 645, 300, 900, 50];
+
+// Discount rate
+let discountRate = 0.10;
+
+// Calculate final prices after applying the discount
+let finalPrices = prices.map(price => price - (price * discountRate));
+
+// Output the final prices array
+console.log(finalPrices);
+VM2565:10 (5) [225, 580.5, 270, 810, 45]
