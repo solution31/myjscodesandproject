@@ -1,0 +1,9 @@
+let heroes=["ironman","hulk","thor","batman"];
+heroes[2];
+'thor'
+//how to channge the value
+let arr=[34,56,67,78,89];
+arr[2]=55;
+55
+console.log(arr);
+o/p [34, 56, 55, 78, 89]
