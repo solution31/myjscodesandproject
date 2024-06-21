@@ -1,0 +1,28 @@
+/push
+undefined
+let item=["aaple","mango","banana","litchi","kiwi"];
+undefined
+items.push("fig");
+VM2789:1 Uncaught ReferenceError: items is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2789:1Understand this error
+item.push("fig");
+6
+console.log(item);
+VM2902:1 (6) ['aaple', 'mango', 'banana', 'litchi', 'kiwi', 'fig']
+undefined
+//pop
+undefined
+item.pop("fig");
+'fig'
+console.log(item);
+VM3045:1 (5) ['aaple', 'mango', 'banana', 'litchi', 'kiwi']
+undefined
+//concat
+undefined
+let veggies=["potato","peace","brinjal"];
+undefined
+let food=item.concat(veggies);
+undefined
+console.log(food);
+VM3348:1 (8) ['aaple', 'mango', 'banana', 'litchi', 'kiwi', 'potato', 'peace', 'brinjal']
