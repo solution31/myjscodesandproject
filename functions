@@ -1,0 +1,9 @@
+function sum(x,y){
+    let s= x+y;
+    return s;
+}
+undefined
+let val= sum(3,4);
+undefined
+console.log(val);
+ 7
