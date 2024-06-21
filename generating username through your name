@@ -1,0 +1,4 @@
+let fullname =prompt("Enter your full name without any spaces");
+let username=fullname+"@"+fullname.length;
+console.log(username);
+Mansijoshi@10
